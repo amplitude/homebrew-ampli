@@ -5,11 +5,11 @@ class AmpliDev < Formula
   version "1.3.1-master-20220223165321.0"
   sha256 "87f03693bc7f0f67c15335cded3c2fe446752c2f196c0c0bf55a01f747dcf456"
 
-  depends_on "node@12"
+  depends_on "amplitude/ampli/ampli-node-dev"
 
   def install
     inreplace "bin/ampli", /^CLIENT_HOME=/, "export AMPLI_OCLIF_CLIENT_HOME=#{lib/"client"}\nCLIENT_HOME="
-    inreplace "bin/ampli", "\"$DIR/node\"", "#{Formula["node@12"].bin}/node"
+    inreplace "bin/ampli", "\"$DIR/node\"", "#{Formula["ampli-node-dev"].libexec}/node"
     libexec.install Dir["*"]
     bin.install_symlink libexec/"bin/ampli" => "ampli-dev"
   end
