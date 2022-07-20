@@ -1,9 +1,9 @@
 class AmpliDev < Formula
   desc "The Ampli CLI (Dev)"
   homepage "https://amplitude.com"
-  url "https://github.com/amplitude/homebrew-ampli/releases/download/v1.14.1-master-20220720183408.0/ampli-v1.14.1-master-20220720183408.0.tar.gz"
-  version "1.14.1-master-20220720183408.0"
-  sha256 "432e2fc1ca3bd281e1495e3824662413fcb39216d2e4ff14e3cbf17899ca8647"
+  url "https://github.com/amplitude/homebrew-ampli/releases/download/v1.15.1-master-20220720192709.0/ampli-v1.15.1-master-20220720192709.0.tar.gz"
+  version "1.15.1-master-20220720192709.0"
+  sha256 "c30255909fa87627002cd57e4eb764b15383b7918b90deb5d6cec9080eaf06d3"
 
   depends_on "node@12"
 
