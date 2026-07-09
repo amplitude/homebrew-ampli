@@ -3,7 +3,7 @@ class Ampli < Formula
   homepage "https://amplitude.com"
   url "https://github.com/amplitude/homebrew-ampli/releases/download/v1.36.4/ampli-v1.36.4.tar.gz"
   version "1.36.4"
-  sha256 "debc50e8d518124bb5916783b7226d27df3bad20086db2a247521a2e81131720"
+  sha256 "90f912654ed4a89970aa7e8859dbd19246391e97b63930b352a046ca3320b7f7"
 
   depends_on "node@18"
 
