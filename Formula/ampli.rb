@@ -1,5 +1,5 @@
 class Ampli < Formula
-  desc "Command-line interface for Amplitude"
+  desc "The Ampli CLI"
   homepage "https://amplitude.com"
   url "https://github.com/amplitude/homebrew-ampli/releases/download/v1.36.6/ampli-v1.36.6.tar.gz"
   version "1.36.6"
